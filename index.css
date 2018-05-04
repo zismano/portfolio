@@ -23,3 +23,16 @@ p {
 	font-size: 20px;
 }
 
+h2, h4 {
+	text-align: center;
+}
+
+.resize {
+	max-height: 195px;
+}
+
+.thumbnail {
+	background-color: transparent;
+	border: 0px solid black;
+}
+

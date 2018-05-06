@@ -36,3 +36,18 @@ h2, h4 {
 	border: 0px solid black;
 }
 
+/*.skills {
+	width: 200px;
+	height: 120px;
+}
+
+.skills img {
+	width: 100%;
+	height: auto;
+}*/
+.skills img {
+	width: 100px;
+	height: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

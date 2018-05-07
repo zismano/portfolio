@@ -21,10 +21,6 @@ body {
 	text-align: center;
 }
 
-/*p {
-	font-size: 20px;
-}*/
-
 h2, h4 {
 	text-align: center;
 }
@@ -48,4 +44,17 @@ h2, h4 {
 
 p {
 	text-align: center;
+}
+
+.contact {
+	padding-bottom: 20px;
+}
+
+hr {
+	border-color: black;
+	margin-bottom: 0px;
+}
+
+a {
+	color: black;
 }

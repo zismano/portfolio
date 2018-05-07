@@ -21,9 +21,9 @@ body {
 	text-align: center;
 }
 
-p {
+/*p {
 	font-size: 20px;
-}
+}*/
 
 h2, h4 {
 	text-align: center;
@@ -38,12 +38,14 @@ h2, h4 {
 	border: 0px solid black;
 }
 
-.skills {
-	width: auto;
+.skills i, .contact i {
+	font-size: 3em;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
-.skills img {
-	width: 80px;
-	height: 100px;
-	margin-left: 15px;
-	margin-right: 15px;
+
+p {
+	text-align: center;
 }

@@ -6,8 +6,10 @@ body {
 	background: url(https://images.unsplash.com/photo-1503453363464-743ee9ce1584?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a0b180c432d9240da00e66807b834ffe&auto=format&fit=crop&w=2252&q=80);
 	background-size: cover;
 	background-position: center;
+	padding-top: 70px;
 
 }
+
 #myImage {
 	width: 300px;
 	border-radius: 50%;
@@ -36,18 +38,12 @@ h2, h4 {
 	border: 0px solid black;
 }
 
-/*.skills {
-	width: 200px;
-	height: 120px;
+.skills {
+	width: auto;
 }
-
 .skills img {
-	width: 100%;
-	height: auto;
-}*/
-.skills img {
-	width: 100px;
-	height: 80px;
-	padding-left: 10px;
-	padding-right: 10px;
+	width: 80px;
+	height: 100px;
+	margin-left: 15px;
+	margin-right: 15px;
 }

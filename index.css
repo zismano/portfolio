@@ -62,3 +62,7 @@ a {
 .contact > i {
 	font-size: 20px;
 }
+
+.hover {
+	color: green;
+}

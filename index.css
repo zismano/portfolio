@@ -66,3 +66,7 @@ a {
 .hover {
 	color: green;
 }
+
+.bottom-line {
+	padding-top: 5px;
+}

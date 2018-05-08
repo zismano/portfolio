@@ -58,3 +58,7 @@ hr {
 a {
 	color: black;
 }
+
+.contact > i {
+	font-size: 20px;
+}

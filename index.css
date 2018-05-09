@@ -17,6 +17,10 @@ body {
 	opacity: 1;
 }
 
+#selected a {
+	color: white;
+}
+
 #home {
 	text-align: center;
 }

@@ -17,7 +17,7 @@ body {
 	opacity: 1;
 }
 
-.home {
+#home {
 	text-align: center;
 }
 
@@ -42,7 +42,7 @@ h2, h4 {
 	border: 0px solid black;
 }
 
-.skills i, .contact i {
+#skills i, #contact i {
 	font-size: 3em;
     display: inline-block;
     width: 100%;
@@ -55,7 +55,7 @@ p {
 	font-size: 20px;
 }
 
-.contact {
+#contact {
 	padding-bottom: 20px;
 }
 
@@ -68,7 +68,7 @@ a {
 	color: black;
 }
 
-.contact > i {
+#contact > i {
 	font-size: 20px;
 }
 
@@ -80,10 +80,14 @@ a {
 	padding-top: 5px;
 }
 
-.about {
+#about {
 	font-size: 40px;
 }
-.about div:nth-of-type(1):first-letter {
+#about div:nth-of-type(1):first-letter {
 	font-size: 100px;
 	color: green;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
 }

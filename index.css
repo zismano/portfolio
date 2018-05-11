@@ -34,7 +34,7 @@ body {
 }
 
 #home p {
-	padding-bottom: 180px;
+	padding-bottom: 160px;
 }
 
 #home h1 {
@@ -99,6 +99,10 @@ a {
 
 #about {
 	background: #ffffb3;
+}
+
+#aboutNavLink {
+	padding: 20px;
 }
 
 #about ul {

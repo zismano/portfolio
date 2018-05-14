@@ -56,12 +56,16 @@ h2, h4 {
 	border: 0px solid black;
 }
 
-#skills i, #contact i {
+#skills i, #contact i, .skill i {
 	font-size: 3em;
     display: inline-block;
     width: 100%;
     text-align: center;
     margin-top: 20px;
+}
+
+.skill > p {
+	font-size: 15px;
 }
 
 p {

@@ -56,6 +56,10 @@ h2, h4 {
 	border: 0px solid black;
 }
 
+.skills-portfolio {
+	margin-bottom: 120px;
+}
+
 #skills i, #contact i, .skill i {
 	font-size: 3em;
     display: inline-block;
@@ -102,7 +106,7 @@ a {
 	background: #ffffb3;
 }
 
-#aboutNavLink {
+#aboutNavLink, #portfolioNavLink {
 	padding: 20px;
 }
 
@@ -164,10 +168,6 @@ a {
 	margin-right: 0px;
 }
 
-#portfolio div {
-	margin-bottom: 20px;
-}
-
 #portfolio li {
 	font-size: 18px;
 }
@@ -183,10 +183,20 @@ a {
 .links {
 	display: block;
 	text-align: center;
-	margin-top: 40px;
+	font-size: 20px;
+}
+
+#portfolio ul {
+	margin-bottom: 0px;
 }
 
 a.code {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

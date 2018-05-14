@@ -28,7 +28,7 @@
       			<ul class="nav navbar-nav" id="sections">
         			<li id="selected"><a href="#">Home</a></li>
 			        <li><a href="#aboutNavLink">About</a></li>
-			        <li><a href="#portfolio">Portfolio</a></li>
+			        <li><a href="#portfolioNavLink">Portfolio</a></li>
 			        <li><a href="#skills">Skills</a></li>
           		</ul>
       			<ul class="nav navbar-nav navbar-right">
@@ -49,155 +49,156 @@
 	</div>
 
 	<div id="aboutNavLink"></div>
-		<div id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-9">
-						<div>Fun Facts About Me</div>
-						<ul>
-							<li>I was born in Israel, and moved to the bay area, CA in 2017</li>
-							<li>I started coding in high-school</li>
-							<li>I have B.Sc degree in Biotechnology Engineering, and M.Sc degree in Environmental Engineering</li>
-							<li>I started coding again when I moved to CA and loved it</li>
-							<li>I'm a professional chess player, and I even built a chess game progam!</li>
-							<li>My second love after coding is animals! I took some funny animals photos <a class="btn btn-success" href="gallery/gallery1.html"><i class="fas fa-paw"></i> Take a look</a></li>
-							<li>When I don't code - I travel, read, volunteer and think of coding :)</li>			
-						</ul>						
-					</div>
-					<div class="thumbnail col-lg-3">
-						<img src="https://i.imgur.com/avdT9zl.jpg">					
-					</div>
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div>Fun Facts About Me</div>
+					<ul>
+						<li>I was born in Israel, and moved to the bay area, CA in 2017</li>
+						<li>I started coding in high-school</li>
+						<li>I have B.Sc degree in Biotechnology Engineering, and M.Sc degree in Environmental Engineering</li>
+						<li>I started coding again when I moved to CA and loved it</li>
+						<li>I'm a professional chess player, and I even built a chess game progam!</li>
+						<li>My second love after coding is animals! I took some funny animals photos <a class="btn btn-success" href="gallery/gallery1.html"><i class="fas fa-paw"></i> Take a look</a></li>
+						<li>When I don't code - I travel, read, volunteer and think of coding :)</li>			
+					</ul>						
+				</div>
+				<div class="thumbnail col-lg-3">
+					<img src="https://i.imgur.com/avdT9zl.jpg">					
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div class="container" id="portfolio">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="thumbnail">
-						<img src="https://images.unsplash.com/photo-1504151806930-41c67891f1de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=589e51d2157774a48ec01cc0ae7fcdc4&auto=format&fit=crop&w=2250&q=80">
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<h2>Quikker</h2>
-					<h4><em>Transportation app for matching passengers to drivers</em></h4>
-					<ul>
-						<li>Developed the backend API end-to-end using ExpressJS server, MongoDB and Redis</li>
-						<li>Optimized transaction throughput and query performance by 200 times, using indexes and connection pooling with MongoDB</li>
-						<li>Dockerized and deployed the app to AWS EC2 for horizontal scalability and server availability</li>
-					</ul>
-					<div class="skills-portfolio">					
-						<div class="skill col-lg-2">
-							<i class="devicon-express-original"></i>
-							<p>Express</p>				
-						</div>
-						<div class="skill col-lg-2">
-							<i class="devicon-nodejs-plain"></i>
-							<p>Node.js</p>				
-						</div>
-						<div class="skill col-lg-2">
-							<i class="devicon-mongodb-plain"></i>
-							<p>MongoDB</p>				
-						</div>	
-						<div class="skill col-lg-2">
-							<i class="devicon-redis-plain"></i>
-							<p>Redis</p>				
-						</div>
-						<div class="skill col-lg-2">
-							<i class="devicon-docker-plain"></i>				
-							<p>Docker</p>
-						</div>
-						<div class="skill col-lg-2">
-							<i class="devicon-amazonwebservices-original"></i>
-							<p>AWS</p>
-						</div>									
-					</div>
-						<div class="links">
-							<a class="code" href="https://github.com/zismano/Quikker">GitHub Code</a>
-						</div>
+	<div id="portfolioNavLink"></div>
+	<div class="container" id="portfolio">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="thumbnail">
+					<img src="https://images.unsplash.com/photo-1504151806930-41c67891f1de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=589e51d2157774a48ec01cc0ae7fcdc4&auto=format&fit=crop&w=2250&q=80">
 				</div>
 			</div>
-			<hr>		
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="thumbnail">
-						<img src="https://i.imgur.com/aPymche.png">
-					</div>
-				</div>
 
-				<div class="col-lg-6">
-					<h2>Slackk-Casa</h2>
-					<h4><em>Real-time messaging for productive teams anywhere</em></h4>
-					<ul>
-						<li>Utilized Websockets for direct messaging via real-time client-server communication</li>
-						<li>Designed relational schemas in PostgresSQL to optimize storage and querying efficiency</li>
-						<li>Built message filters using React for optimal rendering of individual components</li>
-					</ul>
-					<div class="skills-portfolio">
-						<div class="skill col-lg-3">
-							<i class="devicon-react-original"></i>
-							<p>React</p>				
-						</div>
-						<div class="skill col-lg-3">
-							<i class="devicon-express-original"></i>
-							<p>Express</p>				
-						</div>
-						<div class="skill col-lg-3">
-							<i class="devicon-nodejs-plain"></i>
-							<p>Node.js</p>				
-						</div>
-						<div class="skill col-lg-3">
-							<i class="devicon-postgresql-plain"></i>
-							<p>PostgresSQL</p>				
-						</div>
+			<div class="col-lg-6">
+				<h2>Quikker</h2>
+				<h4><em>Transportation app for matching passengers to drivers</em></h4>
+				<ul>
+					<li>Developed the backend API end-to-end using ExpressJS server, MongoDB and Redis</li>
+					<li>Optimized transaction throughput and query performance by 200 times, using indexes and connection pooling with MongoDB</li>
+					<li>Dockerized and deployed the app to AWS EC2 for horizontal scalability and server availability</li>
+				</ul>
+				<div class="skills-portfolio">					
+					<div class="skill col-lg-2">
+						<i class="devicon-express-original"></i>
+						<p>Express</p>				
 					</div>
-					<div class="links">
-						<a class="code" href="https://github.com/zismano/slackk-casa">GitHub Code</a>
-						<a class="web" href="">Website</a>										
+					<div class="skill col-lg-2">
+						<i class="devicon-nodejs-plain"></i>
+						<p>Node.js</p>				
+					</div>
+					<div class="skill col-lg-2">
+						<i class="devicon-mongodb-plain"></i>
+						<p>MongoDB</p>				
 					</div>	
-				</div>
-			</div>
-			<hr>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="thumbnail">
-						<img src="https://i.imgur.com/FkNRdFm.png">
+					<div class="skill col-lg-2">
+						<i class="devicon-redis-plain"></i>
+						<p>Redis</p>				
 					</div>
-				</div>
-				<div class="col-lg-6">					
-					<h2>Yowl</h2>
-					<h4><em>Location-based restaurant search, rating and reviews</em></h4>
-					<ul>
-						<li>Enriched the application’s user experience by integrating with Google Places API</li>
-						<li>Applied Test Driven Development using Mocha and Chai frameworks to ensure quality</li>
-					</ul>
-					<div class="skills-portfolio">
-						<div class="skill col-lg-3">
-							<i class="devicon-react-original"></i>
-							<p>React</p>				
-						</div>
-						<div class="skill col-lg-3">
-							<i class="devicon-express-original"></i>
-							<p>Express</p>				
-						</div>
-						<div class="skill col-lg-3">
-							<i class="devicon-nodejs-plain"></i>
-							<p>Node.js</p>				
-						</div>
-						<div class="skill col-lg-3">
-							<i class="devicon-postgresql-plain"></i>
-							<p>PostgresSQL</p>				
-						</div>
+					<div class="skill col-lg-2">
+						<i class="devicon-docker-plain"></i>				
+						<p>Docker</p>
 					</div>
+					<div class="skill col-lg-2">
+						<i class="devicon-amazonwebservices-original"></i>
+						<p>AWS</p>
+					</div>									
+				</div>
 					<div class="links">
-						<a class="code" href="https://github.com/zismano/Yowl">GitHub Code</a>
-						<a class="web" href="">Website</a>										
-					</div>	
-				</div>								
+						<a class="code" href="https://github.com/zismano/Quikker">GitHub Code</a>
+					</div>
 			</div>
-			<hr>		
 		</div>
+		<hr>		
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="thumbnail">
+					<img src="https://i.imgur.com/aPymche.png">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<h2>Slackk-Casa</h2>
+				<h4><em>Real-time messaging for productive teams anywhere</em></h4>
+				<ul>
+					<li>Utilized Websockets for direct messaging via real-time client-server communication</li>
+					<li>Designed relational schemas in PostgresSQL to optimize storage and querying efficiency</li>
+					<li>Built message filters using React for optimal rendering of individual components</li>
+				</ul>
+				<div class="skills-portfolio">
+					<div class="skill col-lg-3">
+						<i class="devicon-react-original"></i>
+						<p>React</p>				
+					</div>
+					<div class="skill col-lg-3">
+						<i class="devicon-express-original"></i>
+						<p>Express</p>				
+					</div>
+					<div class="skill col-lg-3">
+						<i class="devicon-nodejs-plain"></i>
+						<p>Node.js</p>				
+					</div>
+					<div class="skill col-lg-3">
+						<i class="devicon-postgresql-plain"></i>
+						<p>PostgresSQL</p>				
+					</div>
+				</div>
+				<div class="links">
+					<a class="code" href="https://github.com/zismano/slackk-casa">GitHub Code</a>
+					<a class="web" href="">Website</a>										
+				</div>	
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="thumbnail">
+					<img src="https://i.imgur.com/FkNRdFm.png">
+				</div>
+			</div>
+			<div class="col-lg-6">					
+				<h2>Yowl</h2>
+				<h4><em>Location-based restaurant search, rating and reviews</em></h4>
+				<ul>
+					<li>Enriched the application’s user experience by integrating with Google Places API</li>
+					<li>Applied Test Driven Development using Mocha and Chai frameworks to ensure quality</li>
+				</ul>
+				<div class="skills-portfolio">
+					<div class="skill col-lg-3">
+						<i class="devicon-react-original"></i>
+						<p>React</p>				
+					</div>
+					<div class="skill col-lg-3">
+						<i class="devicon-express-original"></i>
+						<p>Express</p>				
+					</div>
+					<div class="skill col-lg-3">
+						<i class="devicon-nodejs-plain"></i>
+						<p>Node.js</p>				
+					</div>
+					<div class="skill col-lg-3">
+						<i class="devicon-postgresql-plain"></i>
+						<p>PostgresSQL</p>				
+					</div>
+				</div>
+				<div class="links">
+					<a class="code" href="https://github.com/zismano/Yowl">GitHub Code</a>
+					<a class="web" href="">Website</a>										
+				</div>	
+			</div>								
+		</div>
+		<hr>		
+	</div>
 
 	<div class="container" id="skills">
 		<div class="row">

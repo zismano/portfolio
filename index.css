@@ -11,7 +11,7 @@ body {
 	padding-top: 70px;
 	font-family: Lato;
 	color: #2c3e50;
-
+	z-index: 1;
 }
 
 #myImage {
@@ -35,7 +35,7 @@ body {
 }
 
 #home p {
-	padding-bottom: 160px;
+	padding-bottom: 75px;
 }
 
 #home h1 {
@@ -60,12 +60,23 @@ h2, h4 {
 	margin-bottom: 120px;
 }
 
-#skills i, #contact i, .skill i {
+#skills i, .skill i {
 	font-size: 3em;
     display: inline-block;
     width: 100%;
     text-align: center;
     margin-top: 20px;
+}
+
+#contact .skill i {
+	font-size: 2.3em;
+    margin-top: 10px;
+}
+
+div.bottom-line {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
 }
 
 .skill > p {
@@ -78,7 +89,7 @@ p {
 }
 
 #contact {
-	padding-bottom: 20px;
+	height: 50px;
 }
 
 hr {
@@ -98,8 +109,9 @@ a {
 	color: green;
 }
 
-.bottom-line {
-	padding-top: 5px;
+#contact .bottom-line {
+	padding-top: 0px;
+	font-size: 15px;
 }
 
 #about, .skills-out-of-container {
@@ -205,4 +217,8 @@ hr.before-contact {
 
 div.before-contact {
 	background-color: #ccccb3;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }

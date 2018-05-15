@@ -103,7 +103,7 @@ a {
 }
 
 #about, .skills-out-of-container {
-	background: #ffffb3;
+	background: #ffdd99;
 	padding: 50px 0;
 }
 
@@ -205,5 +205,4 @@ hr.before-contact {
 
 div.before-contact {
 	background-color: #ccccb3;
-;
 }

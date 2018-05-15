@@ -35,7 +35,7 @@ body {
 }
 
 #home p {
-	padding-bottom: 75px;
+	padding-bottom: 85px;
 }
 
 #home h1 {
@@ -68,17 +68,12 @@ h2, h4 {
     margin-top: 20px;
 }
 
-#contact .skill i {
+/*#contact .skill i {
 	font-size: 2.3em;
-    margin-top: 10px;
+    margin-top: 0px;
     color: #9d9d9d;
-}
-
-div.bottom-line {
-	width: 100%;
-	text-align: center;
-	font-size: 20px;
-}
+    text-align: right;
+}*/
 
 .skill > p {
 	font-size: 15px;
@@ -91,6 +86,7 @@ p {
 
 #contact {
 	height: 50px;
+	line-height: 50px;
 }
 
 hr {
@@ -104,6 +100,7 @@ a {
 
 #contact > i {
 	font-size: 20px;
+	height: 50px;
 }
 
 .hover {
@@ -111,8 +108,19 @@ a {
 }
 
 #contact .bottom-line {
-	padding-top: 0px;
-	font-size: 15px;
+	font-size: 25px;
+	text-align: left;
+}
+
+#contact span {
+	padding-left: 20px;
+}
+
+.contact-icons a {
+	color: #9d9d9d;
+	font-size: 30px;
+	padding-right: 10px;
+	float: right;
 }
 
 #about, .skills-out-of-container {
@@ -236,3 +244,5 @@ div.before-contact {
 	color: green;
 	font-weight: 700;
 }
+
+

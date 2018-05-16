@@ -127,17 +127,17 @@ a {
 }
 
 #aboutNavLink, #portfolioNavLink {
-	padding: 15px;
+	padding: 20px;
+}
+
+#homeNavLink {
+	padding: 30px;
 }
 
 #about ul {
 	list-style: square;
 	padding-left: 30px;
 }
-/*#about div:nth-of-type(2):first-letter {
-	font-size: 100px;
-	color: green;
-}*/
 
 #about div:nth-of-type(1):first-line {
 	font-size: 30px;

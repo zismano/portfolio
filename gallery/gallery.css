@@ -1,0 +1,13 @@
+body {
+	padding-top: 20px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.back-icon > a {
+    position:relative;
+    top: calc(50% - 10px); /* 50% - 3/4 of icon height */
+}

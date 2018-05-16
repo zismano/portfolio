@@ -21,4 +21,16 @@ sections.addEventListener("click", (e) => {
 	    	lis[i].removeAttribute("id");
 		}
 	}
-})
+});
+
+let contacts = document.querySelectorAll(".contact-icons a");
+
+for (let i = 0; i < contacts.length; i++) {
+	contacts[i].addEventListener("mouseenter", () => {
+		contacts[i].classList.add("hover");
+	});
+	contacts[i].addEventListener("mouseleave", () => {
+		contacts[i].classList.remove("hover");
+	})
+}
+

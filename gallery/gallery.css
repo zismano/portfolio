@@ -8,6 +8,9 @@ body {
 }
 
 .back-icon > a {
-    position:relative;
-    top: calc(50% - 10px); /* 50% - 3/4 of icon height */
+    position: fixed;
+    top: calc(50% - 25px);
+    font-size: 50px;
+    left: 5%;
+    color: rgba(0, 0, 0, 0.5);
 }
